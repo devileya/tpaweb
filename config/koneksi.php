@@ -3,9 +3,9 @@
 require_once('fungsi_validasi.php');
 
 // definisikan koneksi ke database
-$server = "localhost";
-$username = "root";
-$password = "";
+$server = "tpawebserver.mysql.database.azure.com";
+$username = "tpaweb@tpawebserver";
+$password = "@gakjelas12";
 $database = "tpa";
 
 // Koneksi dan memilih database di server
