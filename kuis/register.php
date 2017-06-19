@@ -1,12 +1,6 @@
 <?php
 error_reporting(0);
-$dbhost = "localhost";
-$dbuser = "root";
-$dbpass = "";
-$dbname = "tpa";
-mysql_connect($dbhost,$dbuser,$dbpass);
-mysql_select_db($dbname);
-
+include("koneksi.php");
 //buat array untuk menampung respon dari JSON
 $response = array();
 
