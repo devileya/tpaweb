@@ -30,6 +30,7 @@ switch($_GET[act]){
     $no=1;
     while ($r=mysql_fetch_array($tampil)){
        echo "<tr><td>$no</td>
+       <td>$r[judul]</td>
          <td>$r[teks]</td>
                <td><a class='btn btn-xs btn-warning' href=?module=soal&act=editsoal&id=$r[id]><span class='glyphicon glyphicon-edit'></span></a> 
 	               <a class='btn btn-xs btn-danger' href=$aksi?module=soal&act=hapus&id=$r[id]><span class='glyphicon glyphicon-trash'></span></a>
