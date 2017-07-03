@@ -78,7 +78,7 @@ break;
   echo "<h1>Edit Naskah Soal</h1>
 <div class='row'>
 <div class='col-sm-6'>
-<form method=POST action=$aksi?module=soal&act=update>
+<form method=POST action=$aksi?module=naskah&act=update>
 <input type=hidden name=id value='$r[id]'>
 
 <div class='form-group'>
