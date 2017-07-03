@@ -51,6 +51,11 @@ switch($_GET[act]){
 
 
 <div class='form-group'>
+    <label>Judul naskah<span class='text-danger'></span></label><br>
+    <input type=\"text\" name=\"judul\"/>
+</div>
+
+<div class='form-group'>
     <label>Naskah Soal<span class='text-danger'></span></label><br>
     <textarea rows=\"10\" cols=\"150\" name=\"teks\"></textarea>
 </div>
@@ -74,6 +79,10 @@ break;
 <form method=POST action=$aksi?module=soal&act=update>
 <input type=hidden name=id value='$r[id]'>
 
+<div class='form-group'>
+    <label>Judul naskah<span class='text-danger'></span></label><br>
+    <input type=\"text\" name=\"judul\"/>
+</div>
 
 <div class='form-group'>
     <label>soal<span class='text-danger'></span></label>
