@@ -83,7 +83,7 @@ break;
 
 <div class='form-group'>
     <label>Judul naskah<span class='text-danger'></span></label><br>
-    <input type=\"text\" name=\"judul\" value='$r[judul]'/>
+    <input type=\"text\" name=\"judul\" width=\"100\" value='$r[judul]'/>
 </div>
 
 <div class='form-group'>
