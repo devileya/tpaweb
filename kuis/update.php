@@ -11,9 +11,10 @@
         $telpon = $_POST['telpon'];
         $username = $_POST['username'];
         $password = $_POST['password'];
+        $jenkel = $_POST['jenkel']
         
 
-$query =   "UPDATE tbl_member SET nama='$nama', alamat='$alamat', telpon='$telpon' sekolah='$sekolah', password='$password' WHERE username='$username'";     
+$query =   "UPDATE tbl_member SET nama='$nama', alamat='$alamat', telpon='$telpon',jenkel='$jenkel', sekolah='$sekolah', password='$password' WHERE username='$username'";     
  $result = mysql_query($query);
     }
 
