@@ -21,6 +21,7 @@ switch($_GET[act]){
     <thead>
         <tr>
             <th>No</th>
+	    <th>Judul</th>
       <th>Teks Naskah</th>
 			<th>Aksi </th>
         </tr>
