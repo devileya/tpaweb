@@ -90,14 +90,14 @@ if( $file['error'] == 0 )
 $a=$_POST[teks];
 
 //echo "<script>alert('$a');</script>";
- mysql_query("INSERT INTO tbl_teks(teks) 
-                            VALUE('$_POST[teks]')");
+ mysql_query("INSERT INTO tbl_teks(teks,judul) 
+                            VALUE('$_POST[teks]','$_POST[judul]')");
   header('location:../../media.php?module='.$module);
 }
 
 // Update soal
 elseif ($module=='naskah' AND $act=='update'){
-  mysql_query("UPDATE tbl_teks SET teks = '$_POST[teks]'
+  mysql_query("UPDATE tbl_teks SET teks = '$_POST[teks]' and judul = '$_POST[judul]'
   							   WHERE id = '$_POST[id]'");
   header('location:../../media.php?module='.$module);
 }
