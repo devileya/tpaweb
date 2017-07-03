@@ -83,12 +83,12 @@ break;
 
 <div class='form-group'>
     <label>Judul naskah<span class='text-danger'></span></label><br>
-    <input type=\"text\" name=\"judul\" width=\"100\" value='$r[judul]'/>
+    <input type=\"text\" name=\"judul\" cols=\"150\" value='$r[judul]'/>
 </div>
 
 <div class='form-group'>
     <label>soal<span class='text-danger'></span></label>
-    <textarea class=\"form-control\"  rows=\"10\" cols=\"150\" name=\"teks\" value='$r[teks]'></textarea>
+    <textarea class=\"form-control\"  rows=\"10\" cols=\"150\" name=\"teks\">$r[teks]</textarea>
 </div>";
 
 
