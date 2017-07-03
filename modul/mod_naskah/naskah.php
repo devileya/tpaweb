@@ -88,7 +88,7 @@ break;
 
 <div class='form-group'>
     <label>soal<span class='text-danger'></span></label>
-    <textarea class='form-control'  name='teks' value='$r[teks]'/>
+    <textarea class='form-control'  name='teks' value='$r[teks]'></textarea>
 </div>";
 
 
