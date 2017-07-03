@@ -24,7 +24,7 @@ if ($module=='soal' AND $act=='input'){
 
 $ok_ext = array('jpg','png','gif','jpeg'); // allow only these types of files
 
-$destination = '../../../kuis/images/'; // where our files will be stored
+$destination = '../../kuis/images/'; // where our files will be stored
 
 
 
