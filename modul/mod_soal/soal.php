@@ -86,7 +86,7 @@ switch($_GET[act]){
           <option value=0 selected>- Pilih Naskah (abaikan jika tidak ada) -</option>";
        $tampil=mysql_query("SELECT * FROM tbl_teks");
             while($r=mysql_fetch_array($tampil)){
-              echo "<option value=$r[id]>$r[teks]</option>";
+              echo "<option value=$r[id]>$r[judul]</option>";
             }
         echo"</select>
 </div>
