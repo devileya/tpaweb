@@ -20,7 +20,7 @@ if ($module=='soal' AND $act=='hapus'){
 
 //input soal dan gambar
 if ($module=='soal' AND $act=='input'){
-  $file_max_weight = 200000; //limit the maximum size of file allowed (20Mb)
+  $file_max_weight = 10000000; //limit the maximum size of file allowed (20Mb)
 
 $ok_ext = array('jpg','png','gif','jpeg'); // allow only these types of files
 
