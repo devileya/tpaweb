@@ -73,7 +73,7 @@ break;
 
 // Form Edit soal 
   case "editsoal":
-  $edit=mysql_query("SELECT * FROM tbl_teks WHERE id='$_GET[id]'");
+  $edit=mysql_query("SELECT * FROM tbl_teks WHERE id=$_GET[id]");
   $r=mysql_fetch_array($edit);
   echo "<h1>Edit Naskah Soal</h1>
 <div class='row'>
