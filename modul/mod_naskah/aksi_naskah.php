@@ -97,7 +97,7 @@ $a=$_POST[teks];
 
 // Update soal
 elseif ($module=='naskah' AND $act=='update'){
-  mysql_query("UPDATE tbl_teks SET teks = '$_POST[teks]' and judul = '$_POST[judul]'
+  mysql_query("UPDATE tbl_teks SET teks = '$_POST[teks]', judul = '$_POST[judul]'
   							   WHERE id = '$_POST[id]'");
   header('location:../../media.php?module='.$module);
 }
