@@ -33,8 +33,8 @@ switch($_GET[act]){
        echo "<tr><td>$no</td>
        <td>$r[judul]</td>
          <td>$r[teks]</td>
-               <td><a class='btn btn-xs btn-warning' href=?module=soal&act=editsoal&id=$r[id]><span class='glyphicon glyphicon-edit'></span></a> 
-	               <a class='btn btn-xs btn-danger' href=$aksi?module=soal&act=hapus&id=$r[id]><span class='glyphicon glyphicon-trash'></span></a>
+               <td><a class='btn btn-xs btn-warning' href=?module=naskah&act=editsoal&id=$r[id]><span class='glyphicon glyphicon-edit'></span></a> 
+	               <a class='btn btn-xs btn-danger' href=$aksi?module=naskah&act=hapus&id=$r[id]><span class='glyphicon glyphicon-trash'></span></a>
 
              </td></tr>";
       $no++;
@@ -83,7 +83,7 @@ break;
 
 <div class='form-group'>
     <label>Judul naskah<span class='text-danger'></span></label><br>
-    <input type=\"text\" name=\"judul\"/>
+    <input type=\"text\" name=\"judul\" value='$r[judul]'/>
 </div>
 
 <div class='form-group'>
